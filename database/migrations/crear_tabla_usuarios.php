@@ -1,6 +1,6 @@
 <?php
 
-@include('config/start.php');
+@include('config/config.php');
 
 use Illuminate\Database\Capsule\Manager as Capsule;
 

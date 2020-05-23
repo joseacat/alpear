@@ -4,10 +4,13 @@ namespace App\Controllers;
 
 use App\Models\User;
 
-class HomeController
-{
-    public function index()
-    {
+class HomeController{
+
+    /**
+     * Index
+     * @return array
+     */
+    public function index(){
         return view('index');
     }
 }

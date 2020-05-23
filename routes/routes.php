@@ -4,11 +4,11 @@ $controllersPath = 'App\Controllers\\';
 
 @include('routes/web.php');
 
-$uri = $_SERVER['REQUEST_URI'];
+$url = $_SERVER['REQUEST_URI'];
 
-if (array_key_exists($uri, $routes)) {
-    $targetMethod = $routes[$uri];
-} else {
+if (array_key_exists($url, $routes)){
+    $targetMethod = $routes[$url];
+}else{
     http_response_code(404);
     @include('resources/views/errors/404.php');
     die();

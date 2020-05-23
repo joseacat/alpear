@@ -22,7 +22,7 @@ Apache/Nginx, PHP7 o superiores, MySQL y Composer
 composer update
 ```
 
-* Meter credenciales de la base de datos en '/config/start.php'
+* Meter credenciales de la base de datos en '/config/config.php'
 
 
 ## Construido con

@@ -7,15 +7,13 @@ use Illuminate\Database\Eloquent\Model;
 class User extends Model
 {
     /**
-     * The database table used by the model.
-     *
+     * Tabla usada para los usuarios
      * @var string
      */
-    protected $table = "users";
+    protected $table = "usuarios";
 
     /**
-     * The attributes that are mass assignable.
-     *
+     * Atributos que se puede editar
      * @var array
      */
     protected $fillable = [
@@ -23,8 +21,7 @@ class User extends Model
     ];
 
     /**
-     * The attributes that should be hidden when retrieving data.
-     *
+     * Atributos ocultos
      * @var array
      */
     protected $hidden = [
