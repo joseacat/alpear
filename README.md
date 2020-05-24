@@ -1,12 +1,6 @@
 # Alpear
 Mini framework PHP
 
-## Para arrancar
-
-* Clonar el repositorio
-* 
-poner Apache o Nginx como root /public
-
 
 ### ¿Qué te hace falta?
 
