@@ -4,6 +4,9 @@ Mini framework PHP
 ![Alpear - PHP Framework](https://joseacat.io/wp-content/uploads/2020/05/Alpear_logo.png)
 
 
+---
+
+
 ### ¿Qué te hace falta?
 
 Apache/Nginx, PHP7 o superiores, MySQL y Composer
