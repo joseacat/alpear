@@ -11,6 +11,6 @@ class HomeController{
      * @return array
      */
     public function index(){
-        return view('index');
+        return view('index', array('jose', 'antonio'));
     }
 }

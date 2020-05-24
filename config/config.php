@@ -15,7 +15,7 @@ $capsula->addConnection([
     "host" => "127.0.0.1",
     "database" => "alpear",
     "username" => "root",
-    "password" => "Alpera18"
+    "password" => "1234"
 ]);
 
 $capsula->setAsGlobal();
