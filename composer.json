@@ -1,7 +1,7 @@
 {
     "name": "joseacat/alpear",
     "require": {
-        "illuminate/database": "^7.12"
+        "illuminate/database": "7.30.4"
     },
     "authors": [
         {
