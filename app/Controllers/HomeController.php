@@ -3,14 +3,12 @@
 namespace App\Controllers;
 
 use App\Models\User;
+use App\Templates\Template;
 
 class HomeController{
 
-    /**
-     * Index
-     * @return array
-     */
+
     public function index(){
-        return view('index', array('jose', 'antonio'));
+        return \App\Templates\Template::view('index', ['title' => 'Titulo']);
     }
 }
